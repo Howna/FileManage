@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appConfig name="MyWeb" domain="www.myweb.cn" devMode="true" maxPostSize="100">
+	<dataSources name="dss" dialect="mysql" caseInsensitive="true" datasource-class="pool" minpool="1" maxpool="5" showSql="false" display-result="false" login-timeout="3600" execute-timeout="3600" runthread="false">
+    <dataSource name="main" schema="alipay" status="active" driver="org.gjt.mm.mysql.Driver" url="jdbc:mysql://106.12.116.113:3306/pay?characterEncoding=UTF-8" username="pay" password="KEeMfGZNNp4B4sKc"/>
+	</dataSources>
+	<views viewType="beetl">
+		<view name="404" path=""/>
+		<view name="500" path=""/>
+	</views>
+	<constant name="initDic" value="Y"/>
+	<constant name="actionPackage" value="com.appcore.admin.action;cn.pay.action"/>
+	<constant name="modelPackage" value="com.appcore.admin.model;cn.pay.model"/>
+	<!-- interceptor name="commonInterceptor" impl="cn.pay.interceptor.CommonInterceptor"/ -->
+	<!-- 下面这行必须在前面? -->
+	<interceptor name="AdminLogInterceptor" impl="com.appcore.admin.interceptor.AdminLogInterceptor"/>
+	<interceptor name="sessionInViewInterceptor" impl="com.jfinal.ext.interceptor.SessionInViewInterceptor"/>
+	<plugin name="cachePlugin" impl="com.jfinal.plugin.ehcache.EhCachePlugin"/>
+	<plugin name="sqlInXmlPlugin" impl="com.jfinal.ext.plugin.sqlinxml.SqlInXmlPlugin"/>
+	<!-- 
+	<plugin name="quartzPlugin" impl="com.jfinal.ext.plugin.quartz.QuartzPlugin"/>
+	 -->
+</appConfig>
