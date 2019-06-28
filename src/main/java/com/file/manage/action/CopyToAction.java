@@ -21,7 +21,6 @@ import com.jfinal.kit.StrKit;
 import com.jfinal.plugin.activerecord.Record;
 /**
  * 刷新表格表格的一行
- * @author tiany
  *
  */
 public class CopyToAction extends AbstractAction{
