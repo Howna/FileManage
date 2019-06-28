@@ -7,7 +7,6 @@ import javax.swing.AbstractAction;
 import com.file.manage.views.DataTable;
 /**
  * 刷新表格表格的一行
- * @author tiany
  *
  */
 public class ReloadAction extends AbstractAction{
