@@ -1,8 +1,6 @@
 package com.file.manage.vo;
 /**
  * 文件类型
- * @author MI
- *
  */
 public class FileType {
 	private String id;
