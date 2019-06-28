@@ -10,7 +10,6 @@ import com.file.manage.views.DataTable;
 import com.file.manage.views.UI;
 /**
  * 删除表格的一行
- * @author tiany
  *
  */
 public class DelRowAction extends AbstractAction{
