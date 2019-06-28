@@ -7,8 +7,6 @@ import javax.swing.AbstractAction;
 import com.file.manage.Start;
 /**
  * 刷新表格表格的一行
- * @author tiany
- *
  */
 public class QueryAction extends AbstractAction{
 	/**
