@@ -29,8 +29,6 @@ import java.awt.event.ActionEvent;
 
 public class Start extends JFrame {
 
-	/**
-	 */
 	private static final long serialVersionUID = 1379744371243009345L;
 	private JPanel contentPane;
 	private FilesTable table;
