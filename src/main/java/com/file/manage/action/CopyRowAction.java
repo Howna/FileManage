@@ -11,7 +11,6 @@ import com.file.manage.views.DataTable;
 import com.jfinal.kit.StrKit;
 /**
  * 拷贝当前单元格
- * @author tiany
  *
  */
 public class CopyRowAction extends AbstractAction{
