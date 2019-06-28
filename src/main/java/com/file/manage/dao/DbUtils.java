@@ -10,8 +10,6 @@ import com.jfinal.plugin.activerecord.dialect.Sqlite3Dialect;
 import com.jfinal.plugin.druid.DruidPlugin;
 /**
  * 数据源初始化
- * @author tiany
- *
  */
 public class DbUtils {
 	/**
