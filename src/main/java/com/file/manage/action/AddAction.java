@@ -14,7 +14,6 @@ import com.file.manage.worker.ScanerWorker;
 import com.jfinal.kit.StrKit;
 /**
  * 拷贝当前单元格
- * @author tiany
  *
  */
 public class AddAction extends AbstractAction{
