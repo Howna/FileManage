@@ -19,7 +19,6 @@ import com.jfinal.kit.StrKit;
 
 /**
  * UI界面方面
- * @author 管雷鸣
  *
  */
 public class UI {
